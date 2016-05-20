@@ -23,9 +23,9 @@ namespace WindowsFormsApplicationBettingCalculator
 
         private void buttonCalculate_Click(object sender, EventArgs e)
         {
-            // Everytime i is smaller than 20 it loops through but once it reaches 20 it will stop.
+            // Everytime i is smaller than 20 it loops through but once it reaches 20 it will end.
             // After each interaction it increments by 2 until it meets i < 20.
-            for (int i = 1; i < 20; i += 2)
+            for (int i = 1; i <= 20; i += 2)
             {
                 if (Controls.Find("textBox" + i, true)[0].Text != "" &&
                     Controls.Find("textBox" + (i + 1), true)[0].Text != "" && textStake.Text != "")
@@ -70,7 +70,7 @@ namespace WindowsFormsApplicationBettingCalculator
         private void rButton_CheckedChanged(object sender, EventArgs e)
         {
                    
-            for (int i = 1; i < 20; i += 2)
+            for (int i = 1; i <= 20; i += 2)
             {
                 //set visible as true
                 label28.Visible = true;
@@ -109,6 +109,8 @@ namespace WindowsFormsApplicationBettingCalculator
             }
 
         }
+
+        
     }
 }           
     

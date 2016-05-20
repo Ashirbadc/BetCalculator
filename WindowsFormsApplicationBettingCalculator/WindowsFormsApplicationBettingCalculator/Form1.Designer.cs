@@ -79,8 +79,6 @@ namespace WindowsFormsApplicationBettingCalculator
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.textStake = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.txtDec1 = new System.Windows.Forms.TextBox();
             this.txtBoxReturn = new System.Windows.Forms.TextBox();
@@ -95,6 +93,8 @@ namespace WindowsFormsApplicationBettingCalculator
             this.txtDec9 = new System.Windows.Forms.TextBox();
             this.txtDec10 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -541,24 +541,6 @@ namespace WindowsFormsApplicationBettingCalculator
             this.textStake.Size = new System.Drawing.Size(148, 22);
             this.textStake.TabIndex = 12;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-14, 31);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(357, 133);
-            this.pictureBox2.TabIndex = 54;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(334, 31);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(302, 133);
-            this.pictureBox3.TabIndex = 55;
-            this.pictureBox3.TabStop = false;
-            // 
             // label28
             // 
             this.label28.AutoSize = true;
@@ -682,6 +664,24 @@ namespace WindowsFormsApplicationBettingCalculator
             this.label9.Size = new System.Drawing.Size(88, 15);
             this.label9.TabIndex = 70;
             this.label9.Text = "Display Odds as";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 31);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(298, 131);
+            this.pictureBox2.TabIndex = 54;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(297, 31);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(304, 131);
+            this.pictureBox3.TabIndex = 55;
+            this.pictureBox3.TabStop = false;
             // 
             // Form1
             // 
@@ -824,8 +824,6 @@ namespace WindowsFormsApplicationBettingCalculator
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox textStake;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox txtDec1;
         private System.Windows.Forms.TextBox txtBoxReturn;
@@ -840,6 +838,8 @@ namespace WindowsFormsApplicationBettingCalculator
         private System.Windows.Forms.TextBox txtDec9;
         private System.Windows.Forms.TextBox txtDec10;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
