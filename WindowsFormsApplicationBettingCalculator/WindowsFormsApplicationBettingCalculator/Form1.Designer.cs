@@ -51,7 +51,6 @@ namespace WindowsFormsApplicationBettingCalculator
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -95,6 +94,8 @@ namespace WindowsFormsApplicationBettingCalculator
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tRatio = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -217,7 +218,7 @@ namespace WindowsFormsApplicationBettingCalculator
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(330, 307);
+            this.label3.Location = new System.Drawing.Point(330, 335);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 19);
@@ -565,7 +566,7 @@ namespace WindowsFormsApplicationBettingCalculator
             this.txtBoxReturn.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtBoxReturn.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBoxReturn.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxReturn.Location = new System.Drawing.Point(431, 307);
+            this.txtBoxReturn.Location = new System.Drawing.Point(431, 335);
             this.txtBoxReturn.Name = "txtBoxReturn";
             this.txtBoxReturn.Size = new System.Drawing.Size(170, 19);
             this.txtBoxReturn.TabIndex = 52;
@@ -585,7 +586,7 @@ namespace WindowsFormsApplicationBettingCalculator
             // 
             // txtDec2
             // 
-            this.txtDec2.Location = new System.Drawing.Point(215, 225);
+            this.txtDec2.Location = new System.Drawing.Point(215, 222);
             this.txtDec2.Name = "txtDec2";
             this.txtDec2.Size = new System.Drawing.Size(63, 22);
             this.txtDec2.TabIndex = 61;
@@ -683,12 +684,36 @@ namespace WindowsFormsApplicationBettingCalculator
             this.pictureBox3.TabIndex = 55;
             this.pictureBox3.TabStop = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(330, 290);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(110, 19);
+            this.label10.TabIndex = 71;
+            this.label10.Text = "Total ODDS :";
+            // 
+            // tRatio
+            // 
+            this.tRatio.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.tRatio.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tRatio.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tRatio.Location = new System.Drawing.Point(444, 290);
+            this.tRatio.Name = "tRatio";
+            this.tRatio.Size = new System.Drawing.Size(157, 19);
+            this.tRatio.TabIndex = 72;
+            this.tRatio.Tag = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(594, 542);
+            this.Controls.Add(this.tRatio);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtDec10);
             this.Controls.Add(this.txtDec9);
@@ -796,7 +821,6 @@ namespace WindowsFormsApplicationBettingCalculator
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
@@ -840,6 +864,8 @@ namespace WindowsFormsApplicationBettingCalculator
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox tRatio;
     }
 }
 

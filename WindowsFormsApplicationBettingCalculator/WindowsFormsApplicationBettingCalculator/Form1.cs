@@ -37,6 +37,7 @@ namespace WindowsFormsApplicationBettingCalculator
                         [0].Text) * temp / Convert.ToDouble(this.Controls.Find("textBox" + (i + 1), true)[0].Text);
                 }
             }
+            tRatio.Text = (temp / Convert.ToDouble(textStake.Text)).ToString("0.##") + "/1";
 
             //double one = double.Parse(textBox1.Text);
             //double two = double.Parse(textBox2.Text);
@@ -47,7 +48,7 @@ namespace WindowsFormsApplicationBettingCalculator
             //double returns = divide * myStake;
             //Returning the output of userinput
             //double newReturn = returns + double.Parse(textStake.Text);
-            txtBoxReturn.Text = temp.ToString();
+            txtBoxReturn.Text = Convert.ToInt32(temp).ToString();
             temp = 0;
         }
 
@@ -109,7 +110,6 @@ namespace WindowsFormsApplicationBettingCalculator
             }
 
         }
-
         
     }
 }           
