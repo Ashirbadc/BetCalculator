@@ -37,6 +37,7 @@ namespace WindowsFormsApplicationBettingCalculator
                         [0].Text) * temp / Convert.ToDouble(this.Controls.Find("textBox" + (i + 1), true)[0].Text);
                 }
             }
+            // total ratio
             tRatio.Text = (temp / Convert.ToDouble(textStake.Text)).ToString("0.##") + "/1";
 
             //double one = double.Parse(textBox1.Text);
@@ -106,11 +107,10 @@ namespace WindowsFormsApplicationBettingCalculator
                 //method to set fraction into decimals & set text box to visible
 
 
-
             }
 
         }
-        
+
     }
 }           
     
